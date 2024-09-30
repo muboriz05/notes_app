@@ -32,7 +32,7 @@ class RouteManager {
         return MaterialPageRoute(builder: (context) => const SplashScreen());
 
       default:
-        throw const FormatException("Route non trovato");
+        throw const FormatException("Route not found");
     }
   }
 }
